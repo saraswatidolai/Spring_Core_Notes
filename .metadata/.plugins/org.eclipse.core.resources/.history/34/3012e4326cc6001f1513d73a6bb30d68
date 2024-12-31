@@ -1,0 +1,14 @@
+package com.nit.main;
+
+import java.time.LocalTime;
+
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class GeneratorTest {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		
+		FileSystemXmlApplicationContext fileSystemXmlApplicationContext = new FileSystemXmlApplicationContext("src/com/nit/cfgs/AppConfig.xml");
+	}
+}

@@ -1,0 +1,11 @@
+package com.nit.main;
+
+import java.time.LocalTime;
+
+public class GeneratorTest {
+
+	public static void main(String[] args) {
+		LocalTime.now();
+		System.out.println(now);
+	}
+}

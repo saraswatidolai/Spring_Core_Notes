@@ -1,0 +1,11 @@
+package com.nit.main;
+
+import java.time.LocalDate;
+
+public class GeneratorTest {
+
+	public static void main(String[] args) {
+		//LocalTime now = LocalTime.now();
+		System.out.println(now);
+	}
+}

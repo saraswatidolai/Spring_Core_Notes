@@ -1,0 +1,27 @@
+package com.nit.sbeans;
+
+import java.time.LocalTime;
+
+public class WishMessageGenerator {
+
+	private LocalTime  lt; 
+	
+	public WishMessageGenerator() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public LocalTime getLt() {
+		return lt;
+	}
+
+	public void setLt(LocalTime lt) {
+		this.lt = lt;
+	}
+
+	@Override
+	public String toString() {
+		return "WishMessageGenerator [lt=" + lt + "]";
+	}
+	
+	
+}

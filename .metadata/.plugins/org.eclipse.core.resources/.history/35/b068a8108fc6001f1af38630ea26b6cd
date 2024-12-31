@@ -1,0 +1,13 @@
+package com.nt.main;
+
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class DependencyInjectionTest {
+
+	public static void main(String[] args) {
+		System.out.println("DependencyInjectionTest.main()(start)");
+		
+		//create the IOC container
+		new FileSystemXmlApplicationContext("");
+	}
+}
